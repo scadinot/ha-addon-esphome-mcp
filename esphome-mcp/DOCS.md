@@ -88,7 +88,7 @@ build_backend: "auto"
 
 ### esphome_version
 
-Pins the esphome version used by the **bundled** fallback (e.g. `2026.7.4`).
+Pins the esphome version used by the **bundled** fallback (e.g. `2026.9.0`).
 Leave empty to use the version baked into the image. This has no effect in
 `dashboard` mode, where the version is whatever the dashboard runs. When set,
 the add-on installs that version at startup.

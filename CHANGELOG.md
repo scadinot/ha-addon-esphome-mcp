@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.3] - 2026-09-26
+
+### Changed
+
+- **Bundled ESPHome bumped to 2026.9.0** (base image
+  `ghcr.io/esphome/esphome:2026.9.0`, was 2026.7.4). Only affects the bundled
+  fallback backend; dashboard delegation keeps using the Device Builder's own
+  ESPHome version.
+
 ## [1.8.2] - 2026-08-12
 
 ### Fixed
